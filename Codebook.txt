@@ -1,0 +1,82 @@
+***************
+Study design
+***************
+
+Data collected from the web:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+different datasets loaded, cleaned and merged
+
+
+***************
+Variables list
+***************
+
+ [1] "subject"           code ID of the subject                                
+ [2] "activity_label"    activity performed for the test                               
+ [3] "Time Body Accelerometer - Mean()-X_mean"          
+ [4] "Time Body Accelerometer - Mean()-Y_mean"          
+ [5] "Time Body Accelerometer - Mean()-Z_mean"          
+ [6] "Time Gravity Accelerometer - Mean()-X_mean"       
+ [7] "Time Gravity Accelerometer - Mean()-Y_mean"       
+ [8] "Time Gravity Accelerometer - Mean()-Z_mean"       
+ [9] "Time Body Accelerometer Jerk- Mean()-X_mean"      
+[10] "Time Body Accelerometer Jerk- Mean()-Y_mean"      
+[11] "Time Body Accelerometer Jerk- Mean()-Z_mean"      
+[12] "Time Body Gyroscope - Mean()-X_mean"              
+[13] "Time Body Gyroscope - Mean()-Y_mean"              
+[14] "Time Body Gyroscope - Mean()-Z_mean"              
+[15] "Time Body Gyroscope Jerk- Mean()-X_mean"          
+[16] "Time Body Gyroscope Jerk- Mean()-Y_mean"          
+[17] "Time Body Gyroscope Jerk- Mean()-Z_mean"          
+[18] "Time Body Accelerometer Mag- Mean()_mean"         
+[19] "Time Gravity Accelerometer Mag- Mean()_mean"      
+[20] "Time Body Accelerometer JerkMag- Mean()_mean"     
+[21] "Time Body Gyroscope Mag- Mean()_mean"             
+[22] "Time Body Gyroscope JerkMag- Mean()_mean"         
+[23] "Frequency Body Accelerometer - Mean()-X_mean"     
+[24] "Frequency Body Accelerometer - Mean()-Y_mean"     
+[25] "Frequency Body Accelerometer - Mean()-Z_mean"     
+[26] "Frequency Body Accelerometer Jerk- Mean()-X_mean" 
+[27] "Frequency Body Accelerometer Jerk- Mean()-Y_mean" 
+[28] "Frequency Body Accelerometer Jerk- Mean()-Z_mean" 
+[29] "Frequency Body Gyroscope - Mean()-X_mean"         
+[30] "Frequency Body Gyroscope - Mean()-Y_mean"         
+[31] "Frequency Body Gyroscope - Mean()-Z_mean"         
+[32] "Frequency Body Accelerometer Mag- Mean()_mean"    
+[33] "Frequency Body Accelerometer JerkMag- Mean()_mean"
+[34] "Frequency Body Gyroscope Mag- Mean()_mean"        
+[35] "Frequency Body Gyroscope JerkMag- Mean()_mean"    
+[36] "Time Body Accelerometer - STD()-X_mean"           
+[37] "Time Body Accelerometer - STD()-Y_mean"           
+[38] "Time Body Accelerometer - STD()-Z_mean"           
+[39] "Time Gravity Accelerometer - STD()-X_mean"        
+[40] "Time Gravity Accelerometer - STD()-Y_mean"        
+[41] "Time Gravity Accelerometer - STD()-Z_mean"        
+[42] "Time Body Accelerometer Jerk- STD()-X_mean"       
+[43] "Time Body Accelerometer Jerk- STD()-Y_mean"       
+[44] "Time Body Accelerometer Jerk- STD()-Z_mean"       
+[45] "Time Body Gyroscope - STD()-X_mean"               
+[46] "Time Body Gyroscope - STD()-Y_mean"               
+[47] "Time Body Gyroscope - STD()-Z_mean"               
+[48] "Time Body Gyroscope Jerk- STD()-X_mean"           
+[49] "Time Body Gyroscope Jerk- STD()-Y_mean"           
+[50] "Time Body Gyroscope Jerk- STD()-Z_mean"           
+[51] "Time Body Accelerometer Mag- STD()_mean"          
+[52] "Time Gravity Accelerometer Mag- STD()_mean"       
+[53] "Time Body Accelerometer JerkMag- STD()_mean"      
+[54] "Time Body Gyroscope Mag- STD()_mean"              
+[55] "Time Body Gyroscope JerkMag- STD()_mean"          
+[56] "Frequency Body Accelerometer - STD()-X_mean"      
+[57] "Frequency Body Accelerometer - STD()-Y_mean"      
+[58] "Frequency Body Accelerometer - STD()-Z_mean"      
+[59] "Frequency Body Accelerometer Jerk- STD()-X_mean"  
+[60] "Frequency Body Accelerometer Jerk- STD()-Y_mean"  
+[61] "Frequency Body Accelerometer Jerk- STD()-Z_mean"  
+[62] "Frequency Body Gyroscope - STD()-X_mean"          
+[63] "Frequency Body Gyroscope - STD()-Y_mean"          
+[64] "Frequency Body Gyroscope - STD()-Z_mean"          
+[65] "Frequency Body Accelerometer Mag- STD()_mean"     
+[66] "Frequency Body Accelerometer JerkMag- STD()_mean" 
+[67] "Frequency Body Gyroscope Mag- STD()_mean"         
+[68] "Frequency Body Gyroscope JerkMag- STD()_mean"  
